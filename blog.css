@@ -1,0 +1,124 @@
+.blog1 {
+  /* border: 1px solid red; */
+  display: inline-block;
+  width: 100vw;
+}
+.blog2 {
+  /* border: 1px solid red; */
+  display: inline-block;
+  margin-top: 2rem;
+  width: 28vw;
+  height: 55vh;
+  overflow: hidden;
+}
+.blog3 {
+  /* border:1px solid red; */
+  display: inline-block;
+  width: 28vw;
+  overflow: hidden;
+
+  height: 55vh;
+}
+.blog4 {
+  /* border:1px solid red; */
+  display: inline-block;
+  width: 28vw;
+  height: 55vh;
+
+  overflow: hidden;
+  /* background: rgba(0, 0, 0, 0.6) */
+}
+
+.blog1 img {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  opacity: 0.699;
+  /* z-index:6; */
+  /* background-color: rgb(235, 230, 230,0.3); */
+}
+
+.blog1 p {
+  display: inline-block;
+  position: absolute;
+  /* float:bottom; */
+  /* border:1px solid red; */
+  /* top: 2rem;  */
+  /* opacity:1; */
+  opacity: 100%;
+  color: rgb(0, 0, 0);
+  margin-top: 15rem;
+  margin-left: 1rem;
+  font-size: 1.6rem;
+  z-index: 2;
+  font-weight: 800;
+}
+.blog1 div {
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+}
+
+@keyframes imgfade {
+  from {
+    height: 100%;
+    width: 100%;
+  }
+  to {
+    height: 120%;
+    width: 120%;
+  }
+}
+.blog4:hover .imgb4 {
+  size: cover;
+  overflow: hidden;
+  animation: imgfade 1s;
+}
+.blog3:hover .imgb3 {
+  size: cover;
+  overflow: hidden;
+  animation: imgfade 1s;
+}
+
+.blog2:hover .imgb2 {
+  size: cover;
+  overflow: hidden;
+  animation: imgfade 1s;
+}
+
+.button1 {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  float: center;
+  margin-left: 35.2rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.button7 button {
+  border: 2px solid red;
+
+  font-size: 2rem;
+  /* padding: 2rem; */
+  background: none;
+  border-radius: 10rem;
+  letter-spacing: 2px;
+  height: 4rem;
+  align-items: center;
+  width: 16rem;
+  margin-left: 70vw;
+}
+@keyframes mycool {
+  from {
+    height: 4rem;
+    width: 16rem;
+  }
+  to {
+    height: 5rem;
+    width: 18rem;
+  }
+}
+.button7 button:hover {
+  animation: mycool 5s;
+  animation-duration: 0.6s;
+}

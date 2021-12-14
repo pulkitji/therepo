@@ -1,0 +1,112 @@
+.container-f {
+  color: #fff;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  /* padding: 10px; */
+}
+.f-heading {
+  font-size: 2rem;
+}
+.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  align-content: space-around;
+  justify-content: space-between;
+  margin: 23px;
+}
+.item p {
+  letter-spacing: normal;
+  font-size: 20px;
+}
+.element {
+  line-height: 50px;
+  padding: 5px;
+}
+.element h2 {
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: normal;
+}
+.element h2:hover {
+  font-size: 33px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.element h4 {
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.contact-logo img {
+  height: 2rem;
+  margin: 1rem;
+}
+.good-firms img {
+  height: 60px;
+  margin: 20px;
+}
+.follow {
+  background: white;
+  color: black;
+  display: inline;
+  /* padding: 8px; */
+  justify-content: center;
+  border-radius: 3px;
+}
+.upr-f {
+  color: white;
+  background: rgb(56, 67, 133);
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 20px;
+}
+.follow span {
+  margin: 0%;
+}
+.follow p {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  background: rgb(255, 255, 255);
+  line-height: 32px;
+  padding: 0px 5px 0px 10px;
+  margin-right: -2px;
+  border-radius: 10px;
+}
+.element input {
+  background-color: transparent;
+  font-size: 23px;
+}
+.m-bar {
+  list-style: none;
+}
+.m-elm {
+  text-decoration: none;
+  line-height: 4.5rem;
+  font-size: 2.3rem;
+  text-align: center;
+}
+.m-elm:hover {
+  font-size: 2.9rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.end {
+  background: rgb(29, 28, 28);
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+.left-f {
+  padding-left: 15px;
+}
+.right-f {
+  /* display: inline-block; */
+  text-align: right;
+  background: rgb(29, 28, 28);
+  padding-right: 15px;
+  float: right;
+}
+.right-f a {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,60 @@
+.XII {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 95%;
+  margin-left: 3rem;
+}
+.firstL {
+  margin-left: 1rem;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+.content {
+  margin-left: 1rem;
+  letter-spacing: 1px;
+  font-size: 3.4rem;
+}
+.XII img {
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 1.3rem;
+}
+.button1 {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  float: center;
+  margin-left: 35.2rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.button1 button {
+  border: 2px solid red;
+
+  font-size: 2rem;
+  /* padding: 2rem; */
+  background: none;
+  border-radius: 10rem;
+  letter-spacing: 2px;
+  height: 4rem;
+  align-items: center;
+  width: 16rem;
+}
+@keyframes myani {
+  from {
+    height: 4rem;
+    width: 16rem;
+  }
+  to {
+    height: 5rem;
+    width: 18rem;
+  }
+}
+.button1 button:hover {
+  animation: myani 5s;
+  animation-duration: 0.6s;
+}
+
+.x {
+  margin-top: 48rem;
+}

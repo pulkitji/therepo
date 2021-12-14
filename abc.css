@@ -1,0 +1,168 @@
+/* body {
+  display: flex;
+} */
+.container {
+  background: url('https://www.saffrontech.net/wp-content/uploads/2021/06/our-growth-bg.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: helvetica neue, roboto, sans-serif;
+  font-weight: 20;
+  height: 53rem;
+  /* margin-top: 440rem;
+  posi */
+}
+
+.container p {
+  color: #fff;
+  display: inline-block;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em; */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  border-bottom: 2px solid white;
+  /* padding-left: 9%;
+  padding-top: 5%; */
+}
+.container h1 {
+  color: #fff;
+  font-weight: 20;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  margin-top: 4rem;
+  display: block;
+  padding-left: 9%;
+  padding-right: 35%;
+}
+
+.service-item {
+  /* border: 1px solid black; */
+  margin-top: 3rem;
+  /* margin: auto; */
+  width: 100%;
+  /* padding-top: 10%;
+  padding-left: 9%; */
+  padding: 1rem;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.29rem;
+}
+.service-item p {
+  /* border: 2px solid black; */
+  padding: 0.2rem;
+  margin-left: 1.7rem;
+  /* display: inline-block; */
+}
+
+/* Tooltip text */
+.service1 .img1 {
+  /* visibility: hidden; */
+  opacity: 0;
+  width: 20%;
+  background-color: black;
+  color: #fff;
+  overflow-y: visible;
+  overflow-x: visible;
+  overflow-wrap: inherit;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  margin-top: 5rem;
+}
+.service2 .img2 {
+  opacity: 0;
+  width: 20%;
+  background-color: black;
+  color: #fff;
+  margin-top: 5rem;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.service3 .img3 {
+  opacity: 0;
+  width: 20%;
+  background-color: black;
+  color: #fff;
+  margin-top: 5rem;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.service4 .img4 {
+  opacity: 0;
+  width: 20%;
+  background-color: black;
+  color: #fff;
+  margin-top: 5rem;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.service5 .img5 {
+  opacity: 0;
+  width: 20%;
+  background-color: black;
+  color: #fff;
+  margin-top: 5rem;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+
+@keyframes visivisi {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.service1:hover .img1 {
+  animation: visivisi 2s;
+}
+
+.service2:hover .img2 {
+  animation: visivisi 2s;
+}
+
+.service3:hover .img3 {
+  animation: visivisi 2s;
+}
+
+.service4:hover .img4 {
+  animation: visivisi 2s;
+}
+
+.service5:hover .img5 {
+  animation: visivisi 2s;
+}
+
+.firstp {
+  margin-top: 5rem;
+}
+.service1 {
+  display: inline-block;
+}
+.service2 {
+  display: inline-block;
+}
+.service3 {
+  display: inline-block;
+}
+.service4 {
+  display: inline-block;
+}
+.service5 {
+  display: inline-block;
+}
+
+.cp {
+  margin-left: 3rem;
+  padding-top: 3rem;
+}
